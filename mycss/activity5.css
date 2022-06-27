@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto',sans-serif;
 }
 .container{
-    background-color: lightgray;
+    background-color: rgb(64,136,157);
     width: 780px;
     height: 350px;
     padding: 1em;
@@ -14,21 +14,28 @@ body{
     height: 350px;
     margin: auto;
 }
-.form-center{
+form{
     border: 2px solid black;
     background-color: white;
     width: 700px;
     height: 300px;
-    /* position: absolute; */
+    position: absolute;
     margin: 20px 20px;
 }
+h2{
+    text-align: center; 
+    background-color: lightskyblue;
+    width: 50%;
+    margin: 4px auto;    
+}
+
 label, input{
     display: block;
 }
 label{
     text-align: center;
 }
-.form-center{
+.form-center input{
     margin: auto;
     height: 30px;
     width: 200px;
