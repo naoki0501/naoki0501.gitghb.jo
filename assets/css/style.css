@@ -352,14 +352,17 @@ input[type="submit"]:hover{
 }
 .footer-main-content {
     width: 85%;
-    margin: 4em auto;
+    margin: auto;
     overflow: auto;
 }
 .footer-content{
     width: 24.25%;
-    padding: 1em;
     padding-top: 3em;
+    margin-right: 1%;
     float: left;
+}
+.footer-content:nth-child(4){
+    margin-right: 0;
 }
 .footer-content *{
     color: white;
@@ -374,7 +377,10 @@ input[type="submit"]:hover{
     color: rgb(199,160,122);
 }
 .footer-form *{
-    margin: auto;
+    width: auto;
+    margin: 0;
+    color: black;
+    font-weight: 700;
 }
 
 
